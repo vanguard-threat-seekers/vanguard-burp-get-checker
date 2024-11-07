@@ -28,12 +28,18 @@ GetChecker é uma extensão do Burp Suite que verifica potenciais vulnerabilidad
 4. Navegue até `Extender > Extensions`.
 5. Clique em `Add` e selecione o arquivo JAR gerado para carregar a extensão.
 
+   ![image](https://github.com/user-attachments/assets/5d42c418-8544-4805-a698-a7fd1908f2e9)
+
+
 ## Uso
 
 1. Inicie o Burp Suite e ative o proxy para capturar o tráfego HTTP.
 2. Faça uma requisição POST para um endpoint.
 3. A extensão `GetChecker` tentará reenviar a mesma requisição como GET.
 4. Se a resposta com GET retornar um código de sucesso (2xx), a extensão registrará uma mensagem no log indicando a URL com a potencial vulnerabilidade.
+
+   ![image](https://github.com/user-attachments/assets/8575b047-cb3d-4c1b-8f40-5577137fa60e)
+
 
 ## Exemplo de Log de Saída
 
