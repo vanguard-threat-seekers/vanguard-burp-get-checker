@@ -24,9 +24,10 @@ GetChecker é uma extensão do Burp Suite que verifica potenciais vulnerabilidad
 
 1. Clone o repositório ou baixe o código-fonte.
 2. Compile o código e gere um arquivo JAR usando Maven ou seu IDE preferido.
-3. Abra o Burp Suite.
-4. Navegue até `Extensions`.
-5. Clique em `Add` e selecione o arquivo JAR gerado para carregar a extensão.
+3. Você pode baixar o .jar diretamente aqui: https://github.com/vanguard-threat-seekers/vanguard-burp-get-checker/blob/main/out/artifacts/get_checker_jar/get-checker.jar
+4. Abra o Burp Suite.
+5. Navegue até `Extensions`.
+6. Clique em `Add` e selecione o arquivo JAR gerado para carregar a extensão.
 
    ![image](https://github.com/user-attachments/assets/5d42c418-8544-4805-a698-a7fd1908f2e9)
 
