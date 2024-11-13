@@ -72,7 +72,7 @@ public class GetChecker implements BurpExtension {
             if (statusCode >= 200 && statusCode < 300) {
                 api.logging().logToOutput("Potential vulnerability detected:\n" +
                         "POST request also accepted as GET\n" +
-                        "URL: " + httpService.toString() + urlPathWithParams + "\n");
+                        "Request: " + httpService.toString() + urlPathWithParams + "\n");
             }
         }
     }
