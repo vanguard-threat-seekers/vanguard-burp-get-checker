@@ -5,7 +5,8 @@ GetChecker é uma extensão do Burp Suite que verifica potenciais vulnerabilidad
 ## Funcionalidades
 
 - Monitora requisições HTTP POST.
-- Tenta reenviar a requisição como GET.
+- Obtem todos os parâmetros do HTTP POST.
+- Tenta reenviar a requisição como GET utilizando os mesmos parâmetros do HTTP POST.
 - Registra uma mensagem de log no Burp Suite se a resposta for bem-sucedida (código de status HTTP 2xx), indicando uma potencial vulnerabilidade.
 
 ## Estrutura do Projeto
